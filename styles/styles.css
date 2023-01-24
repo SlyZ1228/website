@@ -26,38 +26,56 @@
 }
 
 #left-side {
-  height: 100vh;
+  height: 91vh;
   width: calc(100vw / 15);
-  background-color: #2E3440;
+  background-color:#2E3440;
   left: 0px;
+  bottom: 0px;
   position: fixed;
 }
 
 #right-side {
-  height: 100vh;
+  height: 91vh;
   width: calc(100vw / 15);
-  background-color: #2E3440;
+  background-color:#2E3440;
   right: 0px;
+  bottom: 0px;
   position: fixed;
 }
+
+#menu-bar {
+  position: fixed;
+  height: 9vh;
+  width: 100vw;
+  top: 0px;
+  background-color:#2E3440;
+}
+
+
 
 
 #linkedin {
   position: absolute;
   left: calc(50% - 20px);
-  top: 73%;
+  top: 74%;
 }
 
 #instagram {
   position: absolute;
   left: calc(50% - 20px);
-  top: 80%;
+  top: 81%;
 }
 
 #github {
   position: absolute;
   left: calc(50% - 20px);
-  top: 66%;
+  top: 67%;
+}
+
+#logo {
+  position: absolute;
+  left: calc(2% - 10px);
+  top: calc(50% - 16px);
 }
 
 #email {
@@ -77,8 +95,8 @@
   font-size: 17px;
   margin: 0px;
   position: absolute;
-  left: 24%;
-  top: 30%;
+  left: 25%;
+  top: 28%;
 }
 
 #name {
@@ -86,18 +104,19 @@
   font-size: 70px;
   margin: 0px;
   position: absolute;
-  left: 24%;
-  top: calc(40% - 70px);
+  left: 25%;
+  top: calc(39% - 70px);
 }
 
 #models {
   font-size: 70px;
   margin: 0px;
   position: absolute;
-  top: 41%;
+  top: 40%;
+  left: 25%;
   background: -webkit-linear-gradient(#E8E1EF, #A3BE8C);
+  background-clip: text;
   -webkit-background-clip: text;
-  left: 24%;
   -webkit-text-fill-color: transparent;
 }
 
@@ -105,7 +124,9 @@
   color: #A3BE8C;
   font-size: 17px;
   margin: 0px;
+  max-width: 40%;
+  line-height: 1.5;
   position: absolute;
   top: 50%;
-  left: 24%;
+  left: 25%;
 }
