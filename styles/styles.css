@@ -59,7 +59,7 @@
   z-index: 1;
 }
 
-#code {
+#abt-code-container {
   background-color: #1e1e1e;
   height: 560px;
   width: 35%;
@@ -94,12 +94,23 @@
   position: flex;
   flex-flow: column nowrap;
   position: relative;
-  justify-content:flex-start;
-  height: 89%;
+  justify-content: space-evenly;
+  height: 87%;
   width: 10%;
+  top: 2%;
   border-radius: 0px 0px 0px 20px;
-  background-color: #1e1e1e;
+  background-color: pink;
   align-items: center;
+}
+
+#abt-code {
+  position: relative;
+  height: 87%;
+  width: 90%;
+  bottom: 92%;
+  left: 10%;
+  border-radius: 0px 0px 20px 0px;
+  background-color: blue;
 }
 
 
@@ -191,6 +202,14 @@
 
 #actual-numbers {
   text-align: center;
+  background: transparent;
+  color: #d4d4d4;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+#actual-abt-code {
+  text-align: left;
   background: transparent;
   color: #d4d4d4;
   margin-top: 7%;
