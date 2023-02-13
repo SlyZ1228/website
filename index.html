@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <title>Zayan Niaz</title>
     <link href="styles/styles.css" rel="stylesheet"/>
+    <script defer href="scripts/app.js"></script>
     <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
   </head>
   <div id="navbar">
-      <a href="https://slyz1228.github.io/website/"> <img id="logo" src="images/favicon.png" width="60px" height="60px"> </a>
-      <a href="#about-me"> 1. About Me</a>
+      <a href="https://slyz1228.github.io/website/"> <img id="logo" src="images/favicon.png" width="55px" height="55px"> </a>
+      <a id="top-link1" href="#about-me"><span id="link-noomber">1. </span>About Me</a>
+      <a id="top-link2" href="#projects"><span id="link-noomber">2. </span>Projects</a>
+      <a id="top-link3" href="#contact"><span id="link-noomber">3. </span>Contact</a>
   </div>
   <div id="left-side">
     <a href="https://github.com/SlyZ1228"> <img id="github" src="images/github icon.png" width="40px" height="40px"> </a>
@@ -68,11 +71,72 @@
           </ol>
       </div>
     </div>
-    <div id="tooxt">
-
+    <img src="images/oogabooga.png" width="400px" height="400px" style="border-radius: 10px;">
+  </div>
+  <div id="spacey"></div>
+  <div id="projects">
+    <h1 id="projects-header">Just Some Projects...</h1>
+    <div id="grid-boi">
+      <div id="project1">
+        <img src="images/folder.png" width="37px" height="37px" style="background: transparent; position: relative; top: 10%; left: 8%;">
+        <a style="background: transparent; position: relative; top: 10%; left: 67%;" href="subpages/baseball.html">
+          <img src="images/link.png" width="25px" height="25px" style="background: transparent;">
+        </a>
+        <h1 id="p1-title">Baseball Pitch Type Predictor</h1>
+        <p id="p1-description">A Random Forest model and SVM to predict baseball pitch types based on features like previous pitch type.</p>
+        <pre id="p1-used">Python    sklearn   Pybaseball</p>
+      </div>
+      <div id="project2">
+        <img src="images/folder.png" width="37px" height="37px" style="background: transparent; position: relative; top: 10%; left: 8%;">
+        <a style="background: transparent; position: relative; top: 10%; left: 67%;" href="subpages/baseball.html">
+          <img src="images/link.png" width="25px" height="25px" style="background: transparent;">
+        </a>
+        <h1 id="p2-title">Handwritten Number Recognizer</h1>
+        <p id="p2-description">A neural network written in Python from scratch to recognize handwritten numbers from the MNIST dataset.</p>
+        <pre id="p2-used">Python    Numpy</p>
+      </div>
+      <div id="project3">
+        <img src="images/folder.png" width="37px" height="37px" style="background: transparent; position: relative; top: 10%; left: 8%;">
+        <a style="background: transparent; position: relative; top: 10%; left: 67%;" href="subpages/baseball.html">
+          <img src="images/link.png" width="25px" height="25px" style="background: transparent;">
+        </a>
+        <h1 id="p3-title">Stock Price Predictor</h1>
+        <p id="p3-description">A simple application of a linear regression model in order to predict stock prices.</p>
+        <pre id="p3-used">Python    sklearn   Quandl</p>
+      </div>
+      <div id="project4">
+        <img src="images/folder.png" width="37px" height="37px" style="background: transparent; position: relative; top: 10%; left: 8%;">
+        <a style="background: transparent; position: relative; top: 10%; left: 67%;" href="subpages/baseball.html">
+          <img src="images/link.png" width="25px" height="25px" style="background: transparent;">
+        </a>
+        <h1 id="p4-title">Breast Cancer Predictor</h1>
+        <p id="p4-description">A simple application of a K-Nearest-Neighbors algorithm used to predict the presence of breast cancer.</p>
+        <pre id="p4-used">Python    sklearn</p>
+      </div>
+      <div id="project5">
+        <img src="images/folder.png" width="37px" height="37px" style="background: transparent; position: relative; top: 10%; left: 8%;">
+        <a style="background: transparent; position: relative; top: 10%; left: 67%;" href="subpages/baseball.html">
+          <img src="images/link.png" width="25px" height="25px" style="background: transparent;">
+        </a>
+        <h1 id="p5-title">Linear Regression from Scratch</h1>
+        <p id="p5-description">Exactly what it sounds like! Learning how it works by predicting mock data with linear regression.</p>
+        <pre id="p5-used">Python    </p>
+      </div>
+      <div id="project6">
+        <img src="images/folder.png" width="37px" height="37px" style="background: transparent; position: relative; top: 10%; left: 8%;">
+        <a style="background: transparent; position: relative; top: 10%; left: 67%;" href="subpages/baseball.html">
+          <img src="images/link.png" width="25px" height="25px" style="background: transparent;">
+        </a>
+        <h1 id="p6-title">K Nearest Neighbors Model from Scratch</h1>
+        <p id="p6-description">Also what it sounds like! Learning how it works by predicting mock data with a KNN model (from scratch).</p>
+        <pre id="p6-used">Python    </p>
+      </div>
+    </div>
+    <div id="spacer">
     </div>
   </div>
-  <div id="projects">
-
+  <div id="contact">
+    <h1 id="contact-head">Say Hello!</h1>
+    <p id="contact-txt">Obviously, I'm a high school student, so I'm not looking for a full-time job. However, if you are looking to employ a high schooler interested in data science and finance/economics over the summer, reach out to me on any of my socials!</p>
   </div>
 </html>
