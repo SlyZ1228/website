@@ -13,11 +13,24 @@
   background-color: #2E3440;
   width: calc(100vw - 2 * (100vw / 15) - 100vw / 100);
   height: 91vh;
-  display: flex;;
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
+}
+
+#links {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: inherit;
+  width: 30%;
+  left: 69%;
+  height: inherit;
+  background-color: transparent;
 }
 
 #resume1 {
@@ -38,6 +51,26 @@
 }
 
 #resume1:hover {
+  background-color: #A3BE8C;
+  color: #2E3440;
+  transition-duration: 500ms;
+}
+
+#resume2 {
+  color: #A3BE8C;
+  font-size: 17px;
+  font-weight: lighter;
+  border: 1px solid #A3BE8C;
+  background-color: #2E3440;
+  cursor: pointer;
+  width: 120%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  transition: 500ms background-color;
+}
+
+#resume2:hover {
   background-color: #A3BE8C;
   color: #2E3440;
   transition-duration: 500ms;
@@ -223,34 +256,46 @@
   top: calc(39% - 70px);
 }
 
+#link-noomber {
+  all: inherit;
+  color: #A3BE8C;
+}
+
 #top-link1 {
-  position: relative;
-  top: 38%;
-  left: 70%;
   color: #E8E1EF;
   text-decoration: none;
-  font-weight:100;
+  font-weight: 100;
   font-size: 14px;
+  transition: 150ms color;
+}
+
+#top-link1:hover {
+  color: #A3BE8C;
 }
 
 #top-link2 {
-  position: relative;
-  top: 38%;
-  left: 75%;
   color: #E8E1EF;
   text-decoration: none;
   font-size: 14px;
-  font-weight:100;
+  font-weight: 100;
+  transition: 150ms color;
 }
 
+#top-link2:hover {
+  color: #A3BE8C;
+}
+
+
 #top-link3 {
-  position: relative;
-  top: 38%;
-  left: 80%;
   color: #E8E1EF;
   text-decoration: none;
   font-size: 14px;
   font-weight:100;
+  transition: 150ms color;
+}
+
+#top-link3:hover {
+  color: #A3BE8C;
 }
 
 #models {
