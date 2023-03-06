@@ -39,7 +39,6 @@
   top: 37%;
   color: #A3BE8C;
   font-size: 17px;
-  font-weight: lighter;
   border: 1px solid #A3BE8C;
   background-color: #2E3440;
   cursor: pointer;
@@ -59,7 +58,6 @@
 #resume2 {
   color: #A3BE8C;
   font-size: 17px;
-  font-weight: lighter;
   border: 1px solid #A3BE8C;
   background-color: #2E3440;
   cursor: pointer;
@@ -314,6 +312,7 @@
 #intro {
   color: #A3BE8C;
   font-size: 17px;
+  font-weight: lighter;
   margin: 0px;
   max-width: 45%;
   line-height: 1.5;
@@ -390,7 +389,6 @@
   top: 19%;
   left: 8%;
   max-width: 80%;
-  font-weight: lighter;
   color: #E8E1EF;
   background-color: transparent;
   font-size: 21px;
@@ -444,7 +442,6 @@
   top: 19%;
   left: 8%;
   max-width: 80%;
-  font-weight: lighter;
   color: #E8E1EF;
   background-color: transparent;
   font-size: 21px;
@@ -498,7 +495,6 @@
   top: 19%;
   left: 8%;
   max-width: 80%;
-  font-weight: lighter;
   color: #E8E1EF;
   background-color: transparent;
   font-size: 21px;
@@ -552,7 +548,6 @@
   top: 19%;
   left: 8%;
   max-width: 80%;
-  font-weight: lighter;
   color: #E8E1EF;
   background-color: transparent;
   font-size: 21px;
@@ -606,7 +601,6 @@
   top: 19%;
   left: 8%;
   max-width: 80%;
-  font-weight: lighter;
   color: #E8E1EF;
   background-color: transparent;
   font-size: 21px;
@@ -660,7 +654,6 @@
   top: 19%;
   left: 8%;
   max-width: 80%;
-  font-weight: lighter;
   color: #E8E1EF;
   background-color: transparent;
   font-size: 21px;
