@@ -14,8 +14,10 @@ source: ./subpages
 destination: ./_site
 
 # Author settings
-author:
-  name     : "Zayan Niaz"
+#author:
+#  name     : "Zayan Niaz"
+
+remote_theme: moonwalk;
 
 # social settings
 og_locale: "en_US"
