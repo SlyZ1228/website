@@ -276,7 +276,7 @@
 }
 
 #abt-code-container {
-  font-size: 1.65vh;
+  font-size: 1.75vh;
   background-color: #1e1e1e;
   min-height: 51vmin;
   min-width: 59vmin;
@@ -310,7 +310,7 @@
   float: right;
   border-radius: 0px 0px 30px 30px;
   background-color: #1e1e1e;
-  overflow: auto;
+  overflow: hidden;
 }
 
 #abt-tab-txt {
@@ -330,6 +330,8 @@
   margin: 0.25%;
   font-weight: 400;
 }
+
+
 
 #tabbed-abt-code {
   position: relative;
@@ -786,25 +788,25 @@
   #one-liner {
     font-size: 1.75vh;
     grid-column: 2 / fit-content;
-    grid-row: 25 / 26;
+    grid-row: 23 / 24;
   }
   
   #name {
     font-size: 4vh;
     grid-column: 2 / fit-content;
-    grid-row: 26 / 27;
+    grid-row: 24 / 25;
   }
   
   #models {
     font-size: 4vh;
     grid-column: 2 / fit-content;
-    grid-row: 27 / 28;
+    grid-row: 25 / 26;
   }
   
   #intro {
     font-size: 1.15vh;
     grid-column: 2 / span 8;
-    grid-row: 28 / 29;
+    grid-row: 26 / 27;
   }
   
   #resume1 {
@@ -815,7 +817,7 @@
   
   #resume1-box {
     grid-column: 2 / fit-content;
-    grid-row: 30 / 33;
+    grid-row: 28 / 31;
     align-self: center;
     height: 80%;
   }
