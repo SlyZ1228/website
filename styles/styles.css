@@ -866,6 +866,15 @@
     width: auto;
     padding-top: 20vh;
   }
+
+  #contact-head {
+    font-size: 3.5vh;
+  }
+
+  #contact-txt {
+    font-size: 1.5vh;
+    max-width: 75%;
+  }
 } 
 
 @media only screen and (max-width: 933px) and (min-width: 771px) {
@@ -877,9 +886,5 @@
 
   [id *= "project-"] {
     max-width: 350px;
-  }
-
-  #contact-txt {
-    max-width: 80%;
   }
 } 
