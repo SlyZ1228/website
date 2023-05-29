@@ -778,8 +778,46 @@
 
   #title {
     max-width: 100%;
+    height: 100vh;
     width: auto;
     margin: 0;
+  }
+
+  #one-liner {
+    font-size: 1.75vh;
+    grid-column: 2 / fit-content;
+    grid-row: 25 / 26;
+  }
+  
+  #name {
+    font-size: 4vh;
+    grid-column: 2 / fit-content;
+    grid-row: 26 / 27;
+  }
+  
+  #models {
+    font-size: 4vh;
+    grid-column: 2 / fit-content;
+    grid-row: 27 / 28;
+  }
+  
+  #intro {
+    font-size: 1.15vh;
+    grid-column: 2 / span 8;
+    grid-row: 28 / 29;
+  }
+  
+  #resume1 {
+    align-self: center;
+    font-size: 1.75vh;
+    height: 80%;
+  }
+  
+  #resume1-box {
+    grid-column: 2 / fit-content;
+    grid-row: 30 / 33;
+    align-self: center;
+    height: 80%;
   }
 
   #headshot {
@@ -789,13 +827,22 @@
 
   #abt-code-container {
     font-size: 1vh;
-    min-height: 50vmin;
-    min-width: 70vmin;
+    min-height: 55vmin;
+    min-width: 55vmin;
+  }
+
+  #first-hr {
+    height: 4vh;
+  }
+  
+  #about-me-tab {
+    height: 85%;
   }
 
   #projects {
     max-width: 100%;
     width: auto;
+    padding-top: 15vh;
   }
 
   #grid-boi {
@@ -810,13 +857,11 @@
   #contact {
     max-width: 100%;
     width: auto;
+    padding-top: 20vh;
   }
 } 
 
 @media only screen and (max-width: 933px) {
-  #intro {
-    grid-column: 3 / span 7;
-  }
 
   #headshot {
     width: 30vmax;
