@@ -1,3 +1,4 @@
+title: Zayan Niaz
 domain: slyz1228.github.io
 url: https://slyz1228.github.io # site url
 baseurl: /website/ # apply repo name if use it under gh-pages branch
@@ -13,8 +14,7 @@ source: ./subpages
 destination: ./_site
 
 # Author settings
-author:
-  name     : "Zayan Niaz"
+author: Zayan Niaz
 
 theme: minima
 
