@@ -16,7 +16,7 @@ destination: ./_site
 # Author settings
 author: Zayan Niaz
 
-theme: tactile
+theme: minima
 
 # social settings
 og_locale: "en_US"
