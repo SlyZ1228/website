@@ -1,4 +1,4 @@
-title: Zayan Niaz
+title: Zayan Niaz's Portfolio
 domain: slyz1228.github.io
 url: https://slyz1228.github.io # site url
 baseurl: /website/ # apply repo name if use it under gh-pages branch
@@ -16,7 +16,7 @@ destination: ./_site
 # Author settings
 author: Zayan Niaz
 
-theme: minima
+#theme: minima
 
 # social settings
 og_locale: "en_US"
