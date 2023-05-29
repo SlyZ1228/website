@@ -399,7 +399,7 @@
 
 #project-1 {
   background-color: #1e1e1e;
-  height: 300px;
+  height: 325px;
   width: 95%;
   justify-self: center;
   align-self: center;
@@ -451,7 +451,7 @@
 
 #project-2 {
   background-color: #1e1e1e;
-  height: 300px;
+  height: 325px;
   width: 95%;
   justify-self: center;
   align-self: center;
@@ -503,7 +503,7 @@
 
 #project-3 {
   background-color: #1e1e1e;
-  height: 300px;
+  height: 325px;
   width: 95%;
   justify-self: center;
   align-self: center;
@@ -555,7 +555,7 @@
 
 #project-4 {
   background-color: #1e1e1e;
-  height: 300px;
+  height: 325px;
   width: 95%;
   justify-self: center;
   align-self: center;
@@ -607,7 +607,7 @@
 
 #project-5 {
   background-color: #1e1e1e;
-  height: 300px;
+  height: 325px;
   width: 95%;
   justify-self: center;
   align-self: center;
@@ -659,7 +659,7 @@
 
 #project-6 {
   background-color: #1e1e1e;
-  height: 300px;
+  height: 325px;
   width: 95%;
   justify-self: center;
   align-self: center;
@@ -850,7 +850,12 @@
   #grid-boi {
     width: 100%;
     margin: 0 auto;
-  }  
+  } 
+  
+  [id *= "project-"] {
+    max-width: 300px;
+    
+  }
 
   #body {
     margin: 0;
@@ -863,7 +868,7 @@
   }
 } 
 
-@media only screen and (max-width: 933px) {
+@media only screen and (max-width: 933px) and (min-width: 771px) {
 
   #headshot {
     width: 30vmax;
