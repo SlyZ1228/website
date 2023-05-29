@@ -16,8 +16,6 @@ destination: ./_site
 # Author settings
 author: Zayan Niaz
 
-theme: minima
-
 # social settings
 og_locale: "en_US"
 
