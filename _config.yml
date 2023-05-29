@@ -16,7 +16,7 @@ destination: ./_site
 author:
   name     : "Zayan Niaz"
 
-theme: minima;
+theme: minima
 
 # social settings
 og_locale: "en_US"
